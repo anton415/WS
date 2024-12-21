@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A34DD53D2D16DB580079B563 /* WSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34DD53C2D16DB580079B563 /* WSApp.swift */; };
-		A34DD53F2D16DB580079B563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34DD53E2D16DB580079B563 /* ContentView.swift */; };
 		A34DD5412D16DB5A0079B563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34DD5402D16DB5A0079B563 /* Assets.xcassets */; };
 		A34DD5442D16DB5A0079B563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34DD5432D16DB5A0079B563 /* Preview Assets.xcassets */; };
+		A34DD54B2D16DB840079B563 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A34DD54A2D16DB840079B563 /* start.txt */; };
+		A34DD54D2D16DB840079B563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34DD54C2D16DB840079B563 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A34DD5392D16DB580079B563 /* WS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34DD53C2D16DB580079B563 /* WSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSApp.swift; sourceTree = "<group>"; };
-		A34DD53E2D16DB580079B563 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A34DD5402D16DB5A0079B563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A34DD5432D16DB5A0079B563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A34DD54A2D16DB840079B563 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		A34DD54C2D16DB840079B563 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../Downloads/WordScramble-main/WordScramble/ContentView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				A34DD53C2D16DB580079B563 /* WSApp.swift */,
-				A34DD53E2D16DB580079B563 /* ContentView.swift */,
+				A34DD54A2D16DB840079B563 /* start.txt */,
+				A34DD54C2D16DB840079B563 /* ContentView.swift */,
 				A34DD5402D16DB5A0079B563 /* Assets.xcassets */,
 				A34DD5422D16DB5A0079B563 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34DD5442D16DB5A0079B563 /* Preview Assets.xcassets in Resources */,
+				A34DD54B2D16DB840079B563 /* start.txt in Resources */,
 				A34DD5412D16DB5A0079B563 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A34DD53F2D16DB580079B563 /* ContentView.swift in Sources */,
 				A34DD53D2D16DB580079B563 /* WSApp.swift in Sources */,
+				A34DD54D2D16DB840079B563 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
