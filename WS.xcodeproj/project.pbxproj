@@ -12,6 +12,10 @@
 		A34DD5442D16DB5A0079B563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34DD5432D16DB5A0079B563 /* Preview Assets.xcassets */; };
 		A34DD54B2D16DB840079B563 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A34DD54A2D16DB840079B563 /* start.txt */; };
 		A34DD54D2D16DB840079B563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34DD54C2D16DB840079B563 /* ContentView.swift */; };
+		A34DD5542D16E1ED0079B563 /* WSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34DD54F2D16E1ED0079B563 /* WSApp.swift */; };
+		A34DD5552D16E1ED0079B563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34DD5502D16E1ED0079B563 /* Assets.xcassets */; };
+		A34DD5562D16E1ED0079B563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34DD5522D16E1ED0079B563 /* Preview Assets.xcassets */; };
+		A34DD5572D16E1ED0079B563 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A34DD5532D16E1ED0079B563 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		A34DD5432D16DB5A0079B563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A34DD54A2D16DB840079B563 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		A34DD54C2D16DB840079B563 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../Downloads/WordScramble-main/WordScramble/ContentView.swift"; sourceTree = "<group>"; };
+		A34DD54F2D16E1ED0079B563 /* WSApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSApp.swift; sourceTree = "<group>"; };
+		A34DD5502D16E1ED0079B563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34DD5522D16E1ED0079B563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A34DD5532D16E1ED0079B563 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 				A34DD53C2D16DB580079B563 /* WSApp.swift */,
 				A34DD54A2D16DB840079B563 /* start.txt */,
 				A34DD54C2D16DB840079B563 /* ContentView.swift */,
+				A34DD54E2D16E1ED0079B563 /* WS */,
 				A34DD5402D16DB5A0079B563 /* Assets.xcassets */,
 				A34DD5422D16DB5A0079B563 /* Preview Content */,
 			);
@@ -66,6 +75,25 @@
 			isa = PBXGroup;
 			children = (
 				A34DD5432D16DB5A0079B563 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A34DD54E2D16E1ED0079B563 /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				A34DD54F2D16E1ED0079B563 /* WSApp.swift */,
+				A34DD5502D16E1ED0079B563 /* Assets.xcassets */,
+				A34DD5512D16E1ED0079B563 /* Preview Content */,
+				A34DD5532D16E1ED0079B563 /* start.txt */,
+			);
+			name = WS;
+			sourceTree = "<group>";
+		};
+		A34DD5512D16E1ED0079B563 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A34DD5522D16E1ED0079B563 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -129,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34DD5442D16DB5A0079B563 /* Preview Assets.xcassets in Resources */,
+				A34DD5572D16E1ED0079B563 /* start.txt in Resources */,
 				A34DD54B2D16DB840079B563 /* start.txt in Resources */,
+				A34DD5562D16E1ED0079B563 /* Preview Assets.xcassets in Resources */,
+				A34DD5552D16E1ED0079B563 /* Assets.xcassets in Resources */,
 				A34DD5412D16DB5A0079B563 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34DD5542D16E1ED0079B563 /* WSApp.swift in Sources */,
 				A34DD53D2D16DB580079B563 /* WSApp.swift in Sources */,
 				A34DD54D2D16DB840079B563 /* ContentView.swift in Sources */,
 			);
